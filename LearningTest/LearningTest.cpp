@@ -9,6 +9,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	double dval=3.14;
 	const int &ri=dval;
 	std::cout<<ri<<std::endl;
+	const int temp=dval;
 	system("pause");
 	return 0;
 }
